@@ -1,0 +1,22 @@
+.topLarge {
+    width: 100%;
+    height: 30%;
+}
+
+.bottomLarge {
+    width: 100%;
+    height: 70%;
+}
+
+.topSmall {
+    width: 100%;
+    height: 50%;
+}
+
+.bottomSmall {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}

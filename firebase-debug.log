@@ -1,0 +1,50 @@
+[debug] [2018-04-27T19:54:45.910Z] ----------------------------------------------------------------------
+[debug] [2018-04-27T19:54:45.915Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-27T19:54:45.915Z] CLI Version:   3.18.4
+[debug] [2018-04-27T19:54:45.915Z] Platform:      win32
+[debug] [2018-04-27T19:54:45.915Z] Node Version:  v8.11.1
+[debug] [2018-04-27T19:54:45.916Z] Time:          Fri Apr 27 2018 21:54:45 GMT+0200 (Central Europe Daylight Time)
+[debug] [2018-04-27T19:54:45.916Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-27T19:54:45.935Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-27T19:54:45.936Z] > authorizing via signed-in user
+[debug] [2018-04-27T19:54:45.938Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-27T19:54:45.938Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/XuV4XLY81MKWDh4oynGt9fLy6LtE-QQpzLbE9h0yCWrqndpm4nKqGCJ7QlRD_vbO',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Apr 27 2018 21:54:45 GMT+0200 (Central Europe Daylight Time)
+[debug] [2018-04-27T19:54:46.180Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-27T19:54:46.195Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/zip-codes-viewer2  
+  
+ Fri Apr 27 2018 21:54:46 GMT+0200 (Central Europe Daylight Time)
+[debug] [2018-04-27T19:54:46.912Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-27T19:54:46.912Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/zip-codes-viewer2/tokens  
+  
+ Fri Apr 27 2018 21:54:46 GMT+0200 (Central Europe Daylight Time)
+[debug] [2018-04-27T19:54:47.558Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'zip-codes-viewer2'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2018-04-27T19:54:48.485Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/zip-codes-viewer2/uploads/-LB7f13BH-TRqPrb3APG?fileCount=9&message=  
+  
+ Fri Apr 27 2018 21:54:48 GMT+0200 (Central Europe Daylight Time)
+[debug] [2018-04-27T19:54:50.474Z] <<< HTTP RESPONSE 404
+[debug] [2018-04-27T19:54:50.475Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2018-04-27T19:54:50.475Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:10:13)
+    at Request._callback (C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:47:25)
+    at Request.self.callback (C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (C:\Users\Soninka\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+[error] 
+[error] Error: An unexpected error has occurred.

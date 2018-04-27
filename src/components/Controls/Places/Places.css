@@ -1,0 +1,48 @@
+.places {
+    text-align: left;
+    margin: 0 10px;
+}
+
+.places.large {
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+}
+
+.places.small {
+    height: 33%;
+    width: 100%;
+}
+
+.tableContainer.large {
+    height: 100%;
+    padding: 0;
+    flex-grow: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100vw*0.5);
+    overflow: hidden;
+}
+
+.tableContainer.small {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tableWrapperHead.large {
+    height: 10%;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.tableWrapperHead.small {}
+
+.tableWrapperBody.large {
+    height: 70%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+}
+
+.tableWrapperBody.small {}

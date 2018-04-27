@@ -1,0 +1,102 @@
+.search.large {
+    height: 100%;
+    width: 30vw;
+    min-width: 160px;
+    text-align: left;
+    flex-grow: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search.small {
+    height: 30%;
+    width: 100%;
+    text-align: left;
+}
+
+.select {
+    height: 2.5em;
+    padding: 0;
+    text-align-last: center;
+    background-color: white;
+    color: #6d7787;
+    border: 0.5px solid grey;
+    min-width: 134px;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.select.large {
+    width: 90%;
+    margin: 10px;
+}
+
+.select.small {
+    width: 90%;
+    margin: 10px;
+    font-size: 11px;
+}
+
+.input {
+    height: 2.5em;
+    padding: 0;
+    text-align-last: center;
+    color: #6d7787;
+    -webkit-box-shadow: inset 0 0 0 9999px white;
+    border: 0.5px solid grey;
+    font-family: 'Dosis', sans-serif;
+}
+
+.input.large {
+    width: 90%;
+    min-width: 134px;
+    margin: 0 10px 10px 10px;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+.input.small {
+    width: 45%;
+    height: 33px;
+    float: left;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.button {
+    height: 2.5em;
+    padding: 0;
+    background-color: #6d7787;
+    border: 0.5px solid grey;
+    color: white;
+    cursor: pointer;
+    display: block; /* Make the buttons appear below each other */
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.button.large {
+    width: 90%;
+    min-width: 134px;
+    margin: 0 10px;
+}
+
+.button.small {
+    width: 36%;
+    height: 13px;
+    padding: 10px 12px;
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+button:hover {
+    background-color: grey;
+}

@@ -1,0 +1,46 @@
+.history.large {
+    height: 100%;
+    width: 20vw;
+    min-width: 160px;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.history.small {
+    height: 33%;
+    width: 100%;
+}
+
+.tableContainer {
+    height: 100%;
+    overflow: hidden;
+}
+
+.tableWrapperHead.large {
+    height: 10%;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.tableWrapperHead.small {}
+
+.tableWrapperBody.large {
+    height: 70%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+}
+
+.tableWrapperBody.small {}
+
+.centerHeader {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.centerRows {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
