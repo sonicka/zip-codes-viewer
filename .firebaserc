@@ -1,5 +1,6 @@
 {
   "projects": {
-    "zipcodes-viewer": "zipcodes-viewer"
+    "zipcodes-viewer": "zipcodes-viewer",
+    "default": "zipcodes-viewer"
   }
 }
